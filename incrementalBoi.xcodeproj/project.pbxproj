@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3151CE472853EA5D000A4A33 /* shake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3151CE462853EA5D000A4A33 /* shake.swift */; };
 		31A28A9E27D14B980032DD41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A28A9D27D14B980032DD41 /* AppDelegate.swift */; };
 		31A28AA027D14B980032DD41 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A28A9F27D14B980032DD41 /* SceneDelegate.swift */; };
 		31A28AA227D14B980032DD41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A28AA127D14B980032DD41 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3151CE462853EA5D000A4A33 /* shake.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = shake.swift; path = ../../../../../../../.Trash/shake.swift; sourceTree = "<group>"; };
 		31A28A9A27D14B980032DD41 /* incrementalBoi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = incrementalBoi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31A28A9D27D14B980032DD41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		31A28A9F27D14B980032DD41 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3151CE452853EA4F000A4A33 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3151CE462853EA5D000A4A33 /* shake.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		31A28A9127D14B980032DD41 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +66,7 @@
 		31A28A9C27D14B980032DD41 /* incrementalBoi */ = {
 			isa = PBXGroup;
 			children = (
+				3151CE452853EA4F000A4A33 /* Extensions */,
 				31A28A9D27D14B980032DD41 /* AppDelegate.swift */,
 				31A28A9F27D14B980032DD41 /* SceneDelegate.swift */,
 				31A28AA127D14B980032DD41 /* ViewController.swift */,
@@ -140,6 +151,7 @@
 			files = (
 				31A28AA227D14B980032DD41 /* ViewController.swift in Sources */,
 				31A28A9E27D14B980032DD41 /* AppDelegate.swift in Sources */,
+				3151CE472853EA5D000A4A33 /* shake.swift in Sources */,
 				31A28AA027D14B980032DD41 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
